@@ -1,0 +1,624 @@
+
+@media screen and (min-width: 992px) {
+  .menu-mobile{
+    display: none;
+  }
+  .ondas-nosotros-mobile{
+    display: none;
+  }
+    
+}
+@media screen and (max-width: 992px) {
+    .texto-carta-index h2{
+        font-size: 40px;
+        padding-bottom: 3rem;
+    }
+    .destacados-menu{
+      margin: 10rem 0rem 5rem 0rem !important;
+    }
+    #nosotros-img{
+        display: none;
+    }
+    .owl-container{
+      display: none;
+    }
+    #titulo-reserva{
+      font-size: 2rem;
+    }
+    #ondas-nosotros{
+      display: none;
+    }
+
+
+
+}
+@media screen and (max-width: 450px) {
+    .texto-carta-index h2{
+        font-size: 1.5rem;
+    }
+    .boton-main-index h2{
+        font-size: 1.5rem;
+    }
+    .boton-header-index a{
+        padding: 5px 10px;
+    }
+    .boton-main-index a {
+        font-size: 1rem;
+    }
+    .boton-carta-index a{
+        font-size: 1rem;
+    }
+    .hover-underline-animation{
+        font-size: 1rem;
+    }
+    path, svg{
+        display: none;
+    }
+    .menu-box{
+        border: 0px solid;
+    }
+}
+
+.row{
+    --bs-gutter-x: 0px;
+}
+
+.carta-index{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.fondo-carta-index{
+    background-image:url(../img/portadas/ondasnuevo.svg);
+    align-content: center !important;
+    background-size: cover; 
+    height: 50vh; 
+    width: 100%;
+}
+.texto-carta-index, .boton-carta-index{
+    display: flex;
+    justify-content: center ;
+}
+.texto-carta-index{
+    color: $tortuga1;
+    text-align: center;
+}
+#texto-menu-index{
+  color: $tortuga2;
+  max-width: 500px;
+}
+
+.nosotros-index{
+    min-height: 100vh;
+    margin-top: 5rem;
+    background-color: $tortuga1;
+}
+.reservas-index{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $tortugaN;
+  height: 100vh;
+}
+
+.boton-main-index a {
+    border: 2px solid $tortuga2;
+    border-radius: 2rem;
+    color: $tortuga1;
+    background-color: $tortuga2;
+    padding: 15px 25px;
+    transition: all 0.5s;
+    &:hover{
+    border: 2px solid $tortuga2;
+    color: $tortuga2;
+    background-color: $tortuga1;
+    }
+
+}
+#comer{
+    max-width: 400px;
+}
+.comer-mobile{
+  display: flex;
+  justify-content: center;
+}
+#mensaje{
+    height: 100px;
+}
+
+.fondo-delivery-index{
+    background-image: url(../img/portadas/fondo_banner_delivery.jpg);
+    background-size: cover; 
+    height: 50vh; 
+    width: 100%;
+
+}
+
+.delivery-index{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.titulo-menu{
+    border-bottom: 2px solid $tortuga2;
+}
+.texto-menu{
+    padding: 3rem;
+}
+.img-menu{
+    @extend %columnas;
+    
+}
+#titulo-carta{
+  margin: 2rem 0rem;
+}
+.fondo-menu{
+    background-color: $tortuga2;
+}
+.fondo-menu p{
+    color: $tortuga1;
+}
+.fondo-menu h3{
+    color: $tortuga1;
+}
+
+.fondo-menu h4{
+    color: $tortuga1;
+}
+.menu-box{
+    border: 2px solid $tortuga2;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    text-align: center;
+    max-width: 700px;
+    padding: 2rem;
+    
+}
+.menu-box2{
+    @extend %columnas2;
+    align-items: center;
+}
+.menu-tabla{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.accordion-collapse{
+  background-color: $tortugaR;
+}
+.accordion-header {
+  border-bottom: 1px solid $tortugaN;
+}
+.accordion-item{
+  border: none;
+}
+
+.destacados-menu{
+  margin: 10rem 0rem 10rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.destacados-menu h2{
+ text-align: center;
+ color: $tortugaN;
+}
+.carousel-control-next-icon{
+  background-image: url(../img/iconos/right-arrow.png);
+}
+.carousel-control-prev-icon{
+  background-image: url(../img/iconos/left-arrow.png);
+}
+
+#comer{
+    color: $tortuga1;
+}
+#texto-reserva{
+    color: $tortuga1    ;
+
+}
+
+#boton-reserva{
+    border: 1px solid $tortugaN;
+    &:hover{
+        border:1px solid $tortuga2;
+    }
+
+
+}
+
+.ondas-nosotros{
+    position: relative;
+}
+
+.sobre-nosotros{
+    background-image: url(../img/portadas/interior-tortuga-mesas-index-azul.png) ;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    min-height: 90vh;
+    
+}
+.sobre-nosotros img {
+  padding: 0rem 3rem 0rem 3rem;
+}
+
+#nuestro-index{
+  color: $tortugaN;
+}
+
+.sobre-nosotros div{
+    color: $tortuga1;
+    margin: 1rem  1rem;
+}
+.sobre-nosotros img{
+    margin: 1rem 0rem;
+}
+.sobre-nosotros-texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0rem 2rem;
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+    align-items: center;
+}
+.container-fluid{
+    padding: 0px;
+}
+.sobre-nosotros h2{
+    margin: 10rem 2rem;
+    text-align: center;
+
+}
+
+.section-bg {
+    background-size: cover;
+    position: relative;
+    background-position: left;
+    z-index: 0;
+    padding: 0;
+    min-height: auto;
+    overflow: hidden;
+}
+
+
+
+
+
+.wrapper img{
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .dashed-box {
+    position: relative;
+    z-index: 1;
+    border: dashed;
+    height: 8em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+  .gold-box {
+    position: relative;
+    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+
+  }
+  .green-box {
+    position: absolute;
+    z-index: 2; /* put .green-box above .dashed-box */
+    background: lightgreen;
+    width: 20%;
+    left: 65%;
+    top: -25px;
+    height: 7em;
+    opacity: 0.9;
+  }
+
+#titulo-nosotros{
+    color: $tortugaN;
+    text-align: start;
+}
+#titulo-nosotros2{
+  color: $tortuga2;
+  text-align: center;
+}
+.ubicacion-titulos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ubicacion-titulos h2{
+    padding-top: 5rem;
+}
+.ubicacion-titulos img{
+  margin-bottom: 2rem;
+}
+  
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  #color-texto{
+    color: $tortugaN;
+    margin: 1rem;
+    font-family: collina !important;
+  }
+
+  .body .body-content {
+    background-color: $tortugaN;
+  }
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .background {
+    display: flex;
+    min-height: 70vh;
+  }
+  
+
+  
+  .screen {
+    position: relative;
+    background: $tortugaR;
+    border-radius: 15px;
+  }
+  
+  .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+  }
+  .screen-body {
+    display: flex;
+    align-items: center;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+    
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: $tortugaC;
+    font-size: 26px;
+  }
+  
+  .app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 25px;
+    height: 4px;
+    background: $tortugaN;
+  }
+  
+  .app-contact {
+    margin-top: auto;
+    font-size: 8px;
+    color: $tortuga2;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid $tortuga2;
+    color: $tortuga2;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: $tortuga2;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: $tortugaN;
+  }
+  
+  .app-form-button {
+    background: none;
+    border: none;
+    color: $tortugaN;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .app-form-button:hover {
+    color: $tortugaC;
+  }
+
+  
+ 
+  @media screen and (max-width: 520px) {
+    .screen-body {
+      flex-direction: column;
+    }
+  
+    .screen-body-item.left {
+      margin-bottom: 30px;
+    }
+  
+    .app-title {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .screen-body {
+      padding: 40px;
+    }
+  
+    .screen-body-item {
+      padding: 0;
+    }
+  }
+  .main-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-contacto{
+    background-color: $tortugaN;
+    padding: 3rem 0rem 10rem 0rem;
+  }
+  .banner-contacto h3, h4{
+    color: $tortuga1;
+    text-align: center;
+  }
+  #titulo-contacto2{
+    text-align: center;
+    color: $tortugaC;
+    margin: 5rem 0rem 5rem 0rem;
+    max-width: 800px;
+  }
+  .titulos-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulos-contacto img, h4comer-mobile{
+    padding: 2rem 0rem;
+  }
+  #ondas-nosotros{
+    background-image: url(../img/portadas/ondas-naranja-azul-arriba-01.svg);
+    height: 60vh !important;
+     background-repeat: no-repeat;
+  }
+  .ondas-nosotros-mobile{
+    background-image: url(../img/portadas/ondas-naranja-azul-arriba-01.svg);
+    height: 25vh !important;
+     background-repeat: no-repeat;
+  }
+#contactanos{
+  color: $tortuga2;
+}
+
+
+.frame-reserva h2{
+  font-family: optician;
+  text-align: center;
+  color: $tortugaN;
+  margin: 10rem 0rem;
+}
+
+.frame-reserva h5{
+  text-align: center;
+  font-family: gotham;
+  font-size: 2rem;
+  color: $tortugaC;
+}
+
+
+.active{
+  justify-content: center;
+  
+}
+
+
+
+.carousel-indicators{
+  margin:0px;
+}
+.carousel-item{
+  height: 10vh;
+}
+
+
+.main-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item{
+  display: flex;
+  background: $tortugaN;
+  height: 20rem;
+}
+
+.owl-container{
+  max-width: 1000px;
+}
+
+
+
+
+.carousel-caption{
+  font-weight: bold;
+  color: $tortuga1;
+}
+
+#titulo-menu{
+  text-align: center;
+  color: $tortugaC;
+  margin-bottom: 5rem;
+}
+
+
+

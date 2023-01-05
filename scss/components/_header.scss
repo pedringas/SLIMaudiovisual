@@ -1,0 +1,264 @@
+@import "../base/variables";
+@import "../base/extends";
+
+
+@media screen and (min-width: 992px) {
+    .ocultar{
+        display: none;
+    }
+    .boton-header-menu2{
+        display: none;
+    }
+    .dropdown-menu.show {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .ocultar2{
+        display: none;
+    }
+    .boton-header-menu{
+        display: none;
+    }
+
+
+}
+
+.btn-close{
+    background: transparent url(../img/iconos/xx.png) center/1em auto no-repeat;
+}
+
+
+.fixed-top{
+    position: absolute;
+}
+nav ul {
+    display: block;
+    float: right;
+    overflow: hidden;
+    margin: 7px 0;
+    margin-right: 10px;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav-link{
+    font-size: 16px;
+    color:$tortuga1;
+    &:hover{
+        color: $tortugaN;
+    }
+}
+.nav-link:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: $tortugaN;
+    transition: 300ms;
+}
+.nav-link:hover:after {
+    width: 100%;
+}
+
+.navbar-light2 .navbar-toggler-icon{
+    background-image: url(../img/iconos/menu.png);
+}
+.navbar-nav{
+    align-items: flex-end;
+}
+
+.offcanvas{
+    background-color: $tortuga2;
+}
+.texto-header-index {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40vh ;
+    text-align: center;
+}
+.texto-header-index p{
+    color: $tortugaR;
+}
+
+.boton-header-index{
+    margin-top: 70vh;
+}
+
+.boton-header-menu a{
+    color: $tortuga1;
+    border: 2px solid $tortugaN;
+    border-radius: 2rem;
+    padding: 15px 25px;
+    transition: all 0.5s;
+    background-color: $tortuga2;
+    &:hover{
+        
+        background-color: $tortugaN;
+        color: $tortuga1;
+        border: 2px solid $tortuga2;
+        
+    }
+}
+.boton-header-menu2 a{
+    color: $tortuga1;
+    border: 2px solid $tortugaN;
+    border-radius: 2rem;
+    padding: 15px 25px;
+    transition: all 0.5s;
+    background-color: $tortuga2;
+    &:hover{
+        background-color: $tortugaN;
+        color: $tortuga1;
+        border: 2px solid $tortuga2;
+        
+    }
+}
+.boton-header-index a{
+    color: $tortuga1;
+    border-radius: 2rem;
+    padding: 15px 25px;
+    transition: all 0.5s;
+    background-color: transparent;
+    &:hover{
+        color: $tortugaN;
+        
+    }
+    &::after{
+        content: '';
+        width: 0px;
+        height: 1px;
+        display: block;
+        background: $tortugaN;
+        transition: 300ms;
+    }
+    &:hover::after{
+        width: 90%;
+    }
+
+}
+/* Boton header index*/
+
+   
+   .cta a{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: $tortuga1;
+   }
+   
+   .cta img {
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover img {
+    transform: translateX(10px);
+   }
+   
+   .cta:active img {
+    transform: scale(0.9);
+   }
+   
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: $tortugaN;
+}
+.carousel-indicators .active{
+    background-color: $tortugaC;
+}
+
+.hero-menu{
+    background-color: $tortuga2;
+    height: 100vh;
+}
+.hero-menu-nosotros{
+    background-color: $tortugaR;
+    height: 100vh;
+}
+.hero-menu-contacto{
+    background-color: $tortugaC;
+    height: 100vh;
+}
+.hero-menu-reserva{
+    background-color: $tortuga2;
+    height: 100vh;
+}
+
+.dropdown-menu{
+    background-color: transparent;
+    border: none;
+}
+
+/* From uiverse.io by @Madflows */
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    border: none;
+    background: $tortuga2;
+    color: $tortuga1;
+  }
+  .button input {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    border: none;
+    background: $tortuga2;
+    color: $tortuga1;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      $tortugaN,
+      $tortugaN
+    );
+    transition: all 0.475s;
+  }
+
+  #titulo-nosotros{
+    color: $tortugaC;
+  }
+  .titulo-contacto{
+    color: $tortuga1;
+  }
+  #titulo-reserva{
+    color: $tortugaR;
+  }
+  #subtitulo-reserva{
+    color: $tortugaC;
+  }

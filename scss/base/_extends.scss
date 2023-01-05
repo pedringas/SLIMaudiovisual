@@ -1,0 +1,49 @@
+%headertortuga{
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+%disposicionfooter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+%textoheader{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    position: absolute;
+}
+%columnas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+%columnas2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+%displaycolumn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly; 
+}
+
+%card{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 310px;
+  transition: all 0.5s;
+}
+
