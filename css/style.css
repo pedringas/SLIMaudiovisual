@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6{
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 main{
@@ -89,6 +89,7 @@ main{
 
 .hero-titulo h1{
   color: #007972;
+  
   z-index: 10;
   position: absolute;
   margin: 50vh 0vh 0vh 0vh;
@@ -108,6 +109,7 @@ main{
   text-align: center;
   font-size: 16px;
   transition: .3s;
+  font-family: monofonto;
   color: #17C3B2;
  }
  .boton-hero:hover{
@@ -121,6 +123,7 @@ main{
   border: 2px solid #007972;
   background-color: #2B0063;
   text-align: center;
+  font-family: monofonto;
   font-size: 16px;
   transition: .3s;
   color: #17C3B2;
@@ -131,16 +134,35 @@ main{
   background-color: #007972;
   color: black;
  }
-
+ .offcanvas{
+  background-color: #2B0063;
+ }
+ .nav-link{
+  color: white;
+  font-size: 1.7rem;
+  font-family: monofonto;
+ }
+ .nav-link:hover{
+  color: #007972;
+ }
+ .navbar-nav .nav-link{
+  padding-top: 40px;
+ }
+ .btn-close{
+  background-image: url(../img/iconos/xx.png);
+ }
  .banner-container {
   overflow: hidden;
   position: relative;
+
 }
 
 .banner-container p {
   position: absolute;
   white-space: nowrap;
   animation: banner 20s linear infinite;
+
+  font-family: monofonto;
 }
 .banner-container {
   /* Estilos personalizados para el contenedor del banner */
@@ -202,6 +224,7 @@ main{
   color: white;
   z-index: 1;
   transition: top .5s ease;
+  font-family: monofonto;
 }
 
 .button {
@@ -209,6 +232,7 @@ main{
   text-align: center;
   opacity: 0;
   transition: opacity .5s ease;
+  
 }
 
 .button a {
@@ -218,6 +242,7 @@ main{
   color: white;
   border: solid 2px white;
   z-index: 1;
+  font-family: monofonto;
 }
 .button a:hover{
   border: solid 2px #007972;
@@ -423,10 +448,17 @@ footer img{
     }
 
 }
-
 @media (max-width: 992px){
-    .container-n{
-        margin-top: 30rem;
-		width: 100%;
-    }
+  .container-n{
+      margin-top: 30rem;
+  width: 100%;
+  }
+  #video-cel{
+    display: none;
+  }
+}
+@media (min-width: 991px){
+  #video-pc{
+    display: none;
+  }
 }
