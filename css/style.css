@@ -237,7 +237,7 @@ main{
   background: rgba(0, 0, 0, .3);
 }
 
-.image-trabajos:hover{
+.image-trabajos:hover img{
   filter: grayscale(90%);
 }
 
