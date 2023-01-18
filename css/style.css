@@ -3,6 +3,14 @@
   src: url(../fonts/monofonto\ rg.otf);
 }
 @font-face {
+  font-family: vice;
+  src: url(../fonts/ViceCitySans.otf);
+}
+@font-face {
+  font-family: song;
+  src: url(../fonts/Please\ write\ me\ a\ song.ttf);
+}
+@font-face {
   font-family: lemon-light;
   src: url(../fonts/LEMONMILK-Light.otf);
 }
@@ -56,7 +64,7 @@ p{
   margin: 0px;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: lemon-bold;
+  font-family: vice;
 }
 
 .fixed-top{
@@ -131,7 +139,7 @@ main{
   text-align: center;
   font-size: 16px;
   transition: .3s;
-  font-family: monofonto;
+  font-family: vice;
   color: #17C3B2;
  }
  .boton-hero:hover{
@@ -145,7 +153,7 @@ main{
   border: 2px solid #007972;
   background-color: #2B0063;
   text-align: center;
-  font-family: monofonto;
+  font-family: vice;
   font-size: 16px;
   transition: .3s;
   color: #17C3B2;
@@ -162,7 +170,7 @@ main{
  .nav-link{
   color: white;
   font-size: 1.7rem;
-  font-family: monofonto;
+  font-family: vice;
  }
  .nav-link:hover{
   color: #007972;
@@ -217,6 +225,9 @@ main{
 .image-porfolio{
   position: relative;
 }
+.image-nosotros img{
+  height: 90vh;
+}
 
 .overlay {
   position: absolute;
@@ -256,7 +267,7 @@ main{
   color: white;
   z-index: 1;
   transition: top .5s ease;
-  font-family: monofonto;
+  font-family: vice;
 }
 
 .button {
@@ -274,7 +285,7 @@ main{
   color: white;
   border: solid 2px white;
   z-index: 1;
-  font-family: monofonto;
+  font-family: vice;
 }
 .button a:hover{
   border: solid 2px #007972;
@@ -318,6 +329,7 @@ footer img{
 .footer-distributed .footer-right{
 	display: inline-block;
 	vertical-align: top;
+  font-family: vice;
 }
 
 /* Footer left */
@@ -348,7 +360,6 @@ footer img{
 .footer-distributed .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
-  font-weight:400px;
 	text-decoration: none;
 	color:  inherit;
 }
@@ -393,7 +404,6 @@ footer img{
 .footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
-	
 	line-height:2;
 }
 
@@ -535,10 +545,9 @@ footer img{
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #2B0063;
   margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
+  padding: 0px 20px;
   width: 80%;
 }
 
@@ -562,11 +571,14 @@ footer img{
 .item img{
   height: 50vh;
 }
+.slider-inner h3{
+  color: #ffffff;
+}
 
 .modal-content{
-  max-height: 80vh;
+  
   min-height: 30vh;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .custom-nav {
@@ -606,8 +618,11 @@ footer img{
 }
 .hero-text h1{
   color: #007972;
-
-
+}
+.hero-text h2{
+  color: #ffffff;
+  font-family: vice;
+  font-size: 25px;
 }
 .navbar-toggler-icon{
   max-height: 10%;
@@ -621,7 +636,7 @@ footer img{
   text-align: center;
   font-size: 16px;
   transition: .5s;
-  font-family: monofonto;
+  font-family: vice;
   color: #17C3B2;
 }
 .boton-modal:hover{
