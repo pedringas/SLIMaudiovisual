@@ -7,10 +7,6 @@
   src: url(../fonts/ViceCitySans.otf);
 }
 @font-face {
-  font-family: song;
-  src: url(../fonts/Please\ write\ me\ a\ song.ttf);
-}
-@font-face {
   font-family: lemon-light;
   src: url(../fonts/LEMONMILK-Light.otf);
 }
@@ -633,7 +629,7 @@ footer img{
 .hero-text {
   text-align: left;
   position: absolute;
-  margin-left: 1rem;
+  margin-left: 2rem;
   top: 50%;
   color: #007972;
   z-index: 1;
@@ -698,6 +694,10 @@ footer img{
   font-size:30px;
   z-index:100;
   transform: translateX(-20%);
+}
+.whatsapp a:hover{
+  background-color: #FFF;
+  color:#25d366;
 }
 
 .whatsapp-icon {
