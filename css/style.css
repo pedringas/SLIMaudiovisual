@@ -18,6 +18,9 @@
   font-family: lemon-bold;
   src: url(../fonts/LEMONMILK-Bold.otf);
 }
+header{
+  overflow: hidden;
+}
 #myBtn {
   display: none;
   position: fixed;
@@ -181,17 +184,27 @@ main{
  .btn-close{
   background-image: url(../img/iconos/xx.png);
  }
- .banner-container {
-  overflow: hidden;
-  position: relative;
 
+.banner-nosotros{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.banner-nosotros p{
+  white-space: nowrap;
+  color: white;
+  font-size: 24px;
+  font-family: monofonto;
 }
 
 .banner-container p {
   position: absolute;
   white-space: nowrap;
   animation: banner 20s linear infinite;
-
+  color: white;
+  font-size: 24px;
   font-family: monofonto;
 }
 .banner-container {
@@ -201,12 +214,8 @@ main{
   background-color: black;
   display: flex;
   align-items: center;
-}
-
-.banner-container p {
-  /* Estilos personalizados para el texto del banner */
-  color: white;
-  font-size: 24px;
+  overflow: hidden;
+  position: relative;
 }
 
 
@@ -287,6 +296,7 @@ main{
   z-index: 1;
   font-family: vice;
 }
+
 .button a:hover{
   border: solid 2px #007972;
   color: #007972;
@@ -321,7 +331,7 @@ footer img{
 	width: 100%;
 	text-align: left;
 	font: bold 16px;
-	padding: 55px 50px;
+	padding: 2rem 2rem;
 }
 
 .footer-distributed .footer-left,
@@ -493,6 +503,11 @@ footer img{
     }
 
 }
+@media (max-width: 768px){
+  div.button-nosotros{
+    padding: 2rem;
+   }
+}
 @media (max-width: 992px){
   .container-n{
       margin-top: 30rem;
@@ -504,6 +519,14 @@ footer img{
   div.texto-pc {
     display: none;
   }
+  div.texto-porfolio p{
+    max-width: 700px;
+  }
+  div.footer-center a{
+    font-size: smaller;
+
+  }
+
 
 
 }
@@ -514,6 +537,7 @@ footer img{
   div.texto-celu{
     display: none;
   }
+
 }
 .texto-porfolio{
   display: flex;
@@ -592,7 +616,7 @@ footer img{
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/imagenes/slim_1.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   /* Set a specific height */
   height: 100vh;
@@ -613,6 +637,7 @@ footer img{
   top: 50%;
   color: #007972;
   z-index: 1;
+  padding: 0rem;
 
 
 }
@@ -643,3 +668,38 @@ footer img{
   background-color: #007972;
   color: black;
  }
+
+ .button-nosotros a{
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+  font-family: vice;
+}
+.button-nosotros a:hover{
+  border: solid 2px #007972;
+  color: #007972;
+  background-color: #2B0063;
+  transition: ease 0.5s;
+}
+
+.whatsapp a{
+  position:fixed;
+  width:60px;
+  height:60px;
+  left: 30px;
+  bottom: 20px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+  transform: translateX(-20%);
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
