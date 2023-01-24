@@ -14,6 +14,9 @@
   font-family: lemon-bold;
   src: url(../fonts/LEMONMILK-Bold.otf);
 }
+.hide{
+  display: none;
+}
 header{
   overflow: hidden;
 }
@@ -607,7 +610,7 @@ footer img{
 .modal-content{
   
   min-height: 30vh;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .custom-nav {
@@ -643,6 +646,7 @@ footer img{
   color: #007972;
   z-index: 1;
   padding: 0rem;
+  word-wrap: break-word;
 
 
 }
@@ -653,6 +657,7 @@ footer img{
   color: #ffffff;
   font-family: vice;
   font-size: 25px;
+  word-wrap: break-word;
 }
 .navbar-toggler-icon{
   max-height: 10%;
@@ -713,7 +718,3 @@ footer img{
   margin-top:13px;
 }
 
-.video {
-  aspect-ratio: 16 / 9;
-  width: 100%;
-}
