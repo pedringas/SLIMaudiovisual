@@ -12,6 +12,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./js.js">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="./css/fonts.css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
@@ -22,6 +23,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./normalize.css">
     <meta name="description" content="">
     <meta name="keywords" content="">
 </head>
@@ -31,9 +33,14 @@
   <div class="whatsapp">
     <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" target="_blank"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
   </div>
-    <div class="container hero-video hero-titulo " >
-        <video id="video-pc" src="./img/video/Sobrados ft Lagu.mp4" class="img-fluid" autoplay loop muted></video> 
-        <video id="video-cel" src="./img/video/slim_producciones.mp4" class="img-fluid" autoplay loop muted></video> 
+    <div class="container  hero-titulo " id="hero">
+      <div class="texture"></div>
+      <video loop muted autoplay preload="auto">
+            <source src="./img/video/slim_producciones.mp4" type="video/mp4">
+            Your browser does not support the video tag.  
+      </video>
+        <!----<video id="video-pc" src="./img/video/Sobrados ft Lagu.mp4" class="img-fluid" autoplay loop muted></video> 
+        <video id="video-cel" src="./img/video/slim_producciones.mp4" class="img-fluid" autoplay loop muted></video> --->
         <h1 data-aos="fade-up">CREAMOS el contenido <br> que necesitás</h1>
         <a class="boton-hero" data-aos="fade-up"  href="">CONTACTO</a>
         
@@ -211,5 +218,6 @@
     });
 
   </script>
+  <script src="object.js"></script>
 </body>
 </html>
