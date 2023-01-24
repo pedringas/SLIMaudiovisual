@@ -47,6 +47,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
 
         // Get the <span> element that closes the modal
         var span_close_multi = document.getElementsByClassName("close_multi");
+        
 
         // When the user clicks the button, open the modal
         function setDataIndex() {
@@ -72,6 +73,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
             span_close_multi[i].onclick = function() {
                 var ElementIndex = this.getAttribute('data-index');
                 modalparent[ElementIndex].style.display = "none";
+                document.querySelector('video').pause();
             };
 
         }
@@ -84,6 +86,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
         window.onclick = function(event) {
             if (event.target === modalparent[event.target.getAttribute('data-index')]) {
                 modalparent[event.target.getAttribute('data-index')].style.display = "none";
+                document.querySelector('video').pause();
             }
 
             // OLD CODE

@@ -189,9 +189,8 @@ main{
   align-items: center;
 }
 .banner-nosotros p{
-  white-space: nowrap;
   color: white;
-  font-size: 24px;
+  font-size: 2rem;
   font-family: monofonto;
 }
 
@@ -503,6 +502,9 @@ footer img{
   div.button-nosotros{
     padding: 2rem;
    }
+   div.hero-text h2{
+    font-size: 1.2rem;
+   }
 }
 @media (max-width: 992px){
   .container-n{
@@ -522,12 +524,21 @@ footer img{
     font-size: smaller;
 
   }
+  .div.banner-nosotros p{
+    font-size: 0.5rem;
+  }
+  .item-pc{
+    display: none;
+  }
 
 
 
 }
 @media (min-width: 991px){
   #video-pc{
+    display: none;
+  }
+  .item-mobile{
     display: none;
   }
   div.texto-celu{
@@ -588,9 +599,7 @@ footer img{
 
 
 /*SLIDER SECTION CSS*/
-.item img{
-  height: 50vh;
-}
+
 .slider-inner h3{
   color: #ffffff;
 }
@@ -629,7 +638,7 @@ footer img{
 .hero-text {
   text-align: left;
   position: absolute;
-  margin-left: 2rem;
+  margin: 0rem 2rem 0rem 2rem;
   top: 50%;
   color: #007972;
   z-index: 1;
@@ -702,4 +711,9 @@ footer img{
 
 .whatsapp-icon {
   margin-top:13px;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
