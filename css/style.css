@@ -8,12 +8,17 @@
 }
 @font-face {
   font-family: lemon-light;
-  src: url(../fonts/LEMONMILK-Light.otf);
+  src: url(../fonts/Kastelov\ -\ Axiforma\ Regular.otf);
 }
 @font-face {
   font-family: lemon-bold;
   src: url(../fonts/LEMONMILK-Bold.otf);
 }
+::selection {
+  color: #2B0063;
+  background-color: white;
+}
+
 .hide{
   display: none;
 }
@@ -107,10 +112,10 @@ main{
   text-align: center;
 }
 .nosotros p{
-  max-width: 900px;
+  max-width: 700px;
   text-align: center;
   color: white;
-  padding: 2rem 0rem;
+  line-height: 32px;
 }
 .transicion{
   background-image: url(../img/transiciones/wave.svg) ;
@@ -120,7 +125,7 @@ main{
 }
 
 .hero-titulo h1{
-  color: #007972;
+  color: white;
   
   z-index: 10;
   position: absolute;
@@ -140,7 +145,7 @@ main{
   text-align: center;
   font-size: 16px;
   transition: .3s;
-  font-family: vice;
+  font-family: lemon-light;
   color: #17C3B2;
  }
  .boton-hero:hover{
@@ -154,7 +159,7 @@ main{
   border: 2px solid #007972;
   background-color: #2B0063;
   text-align: center;
-  font-family: vice;
+  font-family: lemon-light;
   font-size: 16px;
   transition: .3s;
   color: #17C3B2;
@@ -171,7 +176,7 @@ main{
  .nav-link{
   color: white;
   font-size: 1.7rem;
-  font-family: vice;
+  font-family: lemon-light;
  }
  .nav-link:hover{
   color: #007972;
@@ -193,7 +198,7 @@ main{
 .banner-nosotros p{
   color: white;
   font-size: 2rem;
-  font-family: monofonto;
+  font-family: lemon-light;
 }
 
 .banner-container p {
@@ -202,7 +207,7 @@ main{
   animation: banner 20s linear infinite;
   color: white;
   font-size: 24px;
-  font-family: monofonto;
+  font-family: lemon-light;
 }
 .banner-container {
   /* Estilos personalizados para el contenedor del banner */
@@ -273,7 +278,7 @@ main{
   color: white;
   z-index: 1;
   transition: top .5s ease;
-  font-family: vice;
+  font-family: lemon-light;
 }
 
 .button {
@@ -291,7 +296,7 @@ main{
   color: white;
   border: solid 2px white;
   z-index: 1;
-  font-family: vice;
+  font-family: lemon-light;
 }
 
 .button a:hover{
@@ -336,7 +341,7 @@ footer img{
 .footer-distributed .footer-right{
 	display: inline-block;
 	vertical-align: top;
-  font-family: vice;
+  font-family: lemon-light;
 }
 
 /* Footer left */
@@ -556,8 +561,8 @@ footer img{
 .texto-porfolio p{
   max-width: 500px;
   padding: 1rem;
-  font-family: monofonto;
-  color: #007972;
+  font-family: lemon-light;
+  color: white;
 }
 
 
@@ -654,7 +659,7 @@ footer img{
 }
 .hero-text h2{
   color: #ffffff;
-  font-family: vice;
+  font-family: lemon-light;
   font-size: 25px;
   word-wrap: break-word;
 }
@@ -670,7 +675,7 @@ footer img{
   text-align: center;
   font-size: 16px;
   transition: .5s;
-  font-family: vice;
+  font-family: lemon-light;
   color: #17C3B2;
 }
 .boton-modal:hover{
@@ -685,7 +690,7 @@ footer img{
   color: white;
   border: solid 2px white;
   z-index: 1;
-  font-family: vice;
+  font-family: lemon-light;
 }
 .button-nosotros a:hover{
   border: solid 2px #007972;
@@ -696,8 +701,8 @@ footer img{
 
 .whatsapp a{
   position:fixed;
-  width:60px;
-  height:60px;
+  width:50px;
+  height:50px;
   left: 30px;
   bottom: 20px;
   background-color:#25d366;
@@ -712,10 +717,12 @@ footer img{
   background-color: #FFF;
   color:#25d366;
 }
+.whatsapp i{
+  margin-top: 8px;
 
-.whatsapp-icon {
-  margin-top:13px;
 }
+
+
 
 
 #hero {
