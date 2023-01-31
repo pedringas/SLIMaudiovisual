@@ -271,6 +271,9 @@ main{
 }
 
 .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
   font-weight: 700;
   font-size: 30px;
@@ -280,6 +283,11 @@ main{
   transition: top .5s ease;
   font-family: lemon-light;
 }
+.title img{
+  margin-top: 1rem;
+}
+
+
 
 .button {
   position: absolute;
@@ -549,6 +557,9 @@ footer img{
     display: none;
   }
   div.texto-celu{
+    display: none;
+  }
+  p.title img{
     display: none;
   }
 
