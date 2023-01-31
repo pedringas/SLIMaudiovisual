@@ -511,6 +511,9 @@ footer img{
     .footer-icons{
         justify-content: center;
     }
+    div.banner-nosotros{
+      height: 300px;
+    }
 
 }
 @media (max-width: 768px){
