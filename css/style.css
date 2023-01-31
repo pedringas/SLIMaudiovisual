@@ -525,6 +525,14 @@ footer img{
 
    }
 }
+@media (max-width: 380px) {
+ .hero-text h1{
+  max-width: 350px;
+ }  
+ .hero-text h2{
+  max-width: 300px;
+ }
+}
 @media (min-width: 767px){
    video.video-celu{
     display: none;
