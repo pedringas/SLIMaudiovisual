@@ -520,6 +520,16 @@ footer img{
    div.hero-text h2{
     font-size: 1.2rem;
    }
+   video.video-pc{
+    display: none;
+
+   }
+}
+@media (min-width: 767px){
+   video.video-celu{
+    display: none;
+
+   }
 }
 @media (max-width: 992px){
   .container-n{
