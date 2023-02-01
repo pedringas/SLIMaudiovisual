@@ -115,7 +115,6 @@ main{
   max-width: 700px;
   text-align: center;
   color: white;
-  line-height: 32px;
 }
 .transicion{
   background-image: url(../img/transiciones/wave.svg) ;
@@ -379,7 +378,7 @@ footer img{
 
 .footer-distributed .footer-links a{
 	display:inline-block;
-	line-height: 1.8;
+	
 	text-decoration: none;
 	color:  inherit;
 }
@@ -404,14 +403,12 @@ footer img{
 	height: 38px;
 	border-radius: 50%;
 	text-align: center;
-	line-height: 42px;
+	
 	margin: 10px 15px;
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
-	line-height: 38px;
-}
+
 
 .footer-distributed .footer-center p{
 	display: inline-block;
@@ -424,7 +421,7 @@ footer img{
 .footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
-	line-height:2;
+	
 }
 
 .footer-distributed .footer-center p a{
@@ -453,7 +450,7 @@ footer img{
 }
 
 .footer-distributed .footer-company-about{
-	line-height: 20px;
+
 	color:  white;
 	font-size: 13px;
 	font-weight: normal;
@@ -481,7 +478,7 @@ footer img{
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
-	line-height: 35px;
+	
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
