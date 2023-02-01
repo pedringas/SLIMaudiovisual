@@ -528,7 +528,7 @@ footer img{
 
    }
 }
-@media (max-width: 380px) {
+@media (max-width: 500px) {
  .hero-text h1{
   max-width: 350px;
  }  
