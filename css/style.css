@@ -333,6 +333,8 @@ footer img{
 .footer-center div{
   padding: 1rem 0rem;
 }
+
+
 .footer-distributed{
 	background: #2B0063;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -410,6 +412,7 @@ footer img{
 
 
 
+
 .footer-distributed .footer-center p{
 	display: inline-block;
 	color: white;
@@ -427,6 +430,10 @@ footer img{
 .footer-distributed .footer-center p a{
 	color:  #007972;
 	text-decoration: none;
+}
+
+.footer-distributed .footer-center p a:hover{
+  color: white;
 }
 
 .footer-distributed .footer-links a:before {
