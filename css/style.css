@@ -428,12 +428,12 @@ footer img{
 }
 
 .footer-distributed .footer-center p a{
-	color:  #007972;
+	color: white ;
 	text-decoration: none;
 }
 
 .footer-distributed .footer-center p a:hover{
-  color: white;
+  color: #007972;
 }
 
 .footer-distributed .footer-links a:before {
@@ -678,11 +678,10 @@ footer img{
 }
 
 /* Place text in the middle of the image */
-.hero-text {
+.hero-text h2 {
   text-align: left;
   position: absolute;
-  margin: 0rem 2rem 0rem 2rem;
-  top: 50%;
+  top: 70%;
   color: #007972;
   z-index: 1;
   padding: 0rem;
@@ -762,9 +761,8 @@ footer img{
 
 
 #hero {
-  height:100vh;
+  height:120vh;
   width:100%;
-  background: black;
   display:flex;
   align-items:center;
   justify-content: space-between;
