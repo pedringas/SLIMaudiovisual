@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 main{
-  background-color: #2B0063;
+  background-color: black;
 }
 .nosotros{
   position:relative;
@@ -107,7 +107,7 @@ main{
   align-items: center;
 }
 .nosotros h2{
-  color: #007972;
+  color: #2B0063;
   padding: 2rem 0rem;
   text-align: center;
 }
@@ -138,39 +138,40 @@ main{
 
 .boton-hero{
   padding: 0.8em 3em;
-  border: 2px solid #007972;
+  border: 2px solid #2B0063;
   position: absolute;
-  background-color: #2B0063;
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
-  transition: .3s;
+  transition: .5s ease-in-out;
   font-family: lemon-light;
-  color: #17C3B2;
+  color: white;
+  font-weight: bolder;
  }
  .boton-hero:hover{
-  background-color: #007972;
-  color: black;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
  }
  
  .boton-nosotros{
-  border: 2px solid #007972;
   padding: 0.8em 3em;
-  border: 2px solid #007972;
-  background-color: #2B0063;
+  border: 2px solid #2B0063;
+  background-color: transparent;
   text-align: center;
-  font-family: lemon-light;
   font-size: 16px;
-  transition: .3s;
-  color: #17C3B2;
-
-
+  transition: .5s ease-in-out;
+  font-family: lemon-light;
+  color: white;
+  font-weight: bolder;
  }
  .boton-nosotros:hover{
-  background-color: #007972;
-  color: black;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
  }
  .offcanvas{
-  background-color: #2B0063;
+  background-color: BLACK;
  }
  .nav-link{
   color: white;
@@ -178,7 +179,7 @@ main{
   font-family: lemon-light;
  }
  .nav-link:hover{
-  color: #007972;
+  color: #2B0063;
  }
  .navbar-nav .nav-link{
   padding-top: 40px;
@@ -307,9 +308,7 @@ main{
 }
 
 .button a:hover{
-  border: solid 2px #007972;
-  color: #007972;
-  background-color: #2B0063;
+  border: solid 2px #2B0063;
   transition: ease 0.5s;
 }
 
@@ -336,7 +335,7 @@ footer img{
 
 
 .footer-distributed{
-	background: #2B0063;
+	background: black;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -433,7 +432,7 @@ footer img{
 }
 
 .footer-distributed .footer-center p a:hover{
-  color: #007972;
+  color: #2B0063;
 }
 
 .footer-distributed .footer-links a:before {
@@ -704,18 +703,18 @@ footer img{
 
 .boton-modal{
   padding: 0.8em 3em;
-  border: 2px solid #007972;
+  border: 2px solid white;
   position: absolute;
-  background-color: #2B0063;
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   transition: .5s;
   font-family: lemon-light;
-  color: #17C3B2;
+  color: white;
 }
 .boton-modal:hover{
-  background-color: #007972;
-  color: black;
+  background-color: transparent;
+  border: 2px solid #2B0063;
  }
 
  .button-nosotros a{
