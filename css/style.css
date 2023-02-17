@@ -575,8 +575,13 @@ footer img{
   .item-pc{
     display: none;
   }
-
-
+  
+  p{
+    font-size:medium;
+  }
+.title{
+  font-size: 25px;
+}
 
 }
 @media (min-width: 991px){
@@ -805,6 +810,7 @@ background:url('../texture.png');
 #hero .caption h1 {
   font-size:2.5rem;
 }
+
 
 #hero .caption h2 {
   font-size:1.75rem;
