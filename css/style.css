@@ -138,12 +138,12 @@ main{
 
 .boton-hero{
   padding: 0.8em 3em;
-  border: 2px solid #2B0063;
+  border: 2px solid white;
   position: absolute;
   background-color: transparent;
   text-align: center;
   font-size: 16px;
-  transition: .5s ease-in-out;
+  transition: ease 0.5s;
   font-family: lemon-light;
   color: white;
   font-weight: bolder;
@@ -151,16 +151,16 @@ main{
  .boton-hero:hover{
   background-color: transparent;
   color: white;
-  border: 2px solid white;
+  border: 2px solid #2B0063;
  }
  
  .boton-nosotros{
   padding: 0.8em 3em;
-  border: 2px solid #2B0063;
+  border: 2px solid white;
   background-color: transparent;
   text-align: center;
   font-size: 16px;
-  transition: .5s ease-in-out;
+  transition: ease 0.5s;
   font-family: lemon-light;
   color: white;
   font-weight: bolder;
@@ -168,7 +168,7 @@ main{
  .boton-nosotros:hover{
   background-color: transparent;
   color: white;
-  border: 2px solid white;
+  border: 2px solid #2B0063;
  }
  .offcanvas{
   background-color: BLACK;
@@ -237,9 +237,8 @@ main{
   position: relative;
 }
 .image-nosotros img{
-  height: 90vh;
+  margin-top: 0px;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -304,13 +303,15 @@ main{
 }
 
 .button a {
-  width: 200px;
-  padding: 12px 48px;
+  padding: 0.8em 3em;
+  border: 2px solid white;
+  background-color: transparent;
   text-align: center;
-  color: white;
-  border: solid 2px white;
-  z-index: 1;
+  font-size: 16px;
+  transition: ease 0.5s;
   font-family: lemon-light;
+  color: white;
+  font-weight: bolder;
 }
 
 .button a:hover{
@@ -361,7 +362,7 @@ footer img{
 /* Footer left */
 
 .footer-distributed .footer-left{
-	width: 40%;
+	width: 33%;
 }
 
 /* The company logo */
@@ -400,7 +401,8 @@ footer img{
 /* Footer Center */
 
 .footer-distributed .footer-center{
-	width: 35%;
+	width: 33%;
+  text-align: left;
 }
 
 .footer-distributed .footer-center i{
@@ -458,7 +460,8 @@ footer img{
 /* Footer Right */
 
 .footer-distributed .footer-right{
-	width: 20%;
+	width: 30%;
+  text-align: center;
 }
 
 .footer-distributed .footer-company-about{
@@ -475,6 +478,12 @@ footer img{
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
+}
+.footer-company-about a{
+	color:  white;
+}
+.footer-company-about a:hover{
+	color:  #2B0063;
 }
 
 .footer-distributed .footer-icons{
@@ -623,7 +632,7 @@ footer img{
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0, 0, 0, 0.83);
+  background-color: rgba(32, 0, 75, 0.868);
 }
 
 /* Modal Content */
@@ -714,13 +723,14 @@ footer img{
 .boton-modal{
   padding: 0.8em 3em;
   border: 2px solid white;
-  position: absolute;
   background-color: transparent;
   text-align: center;
   font-size: 16px;
-  transition: .5s;
+  transition: ease 0.5s;
   font-family: lemon-light;
   color: white;
+  font-weight: bolder;
+  position: absolute;
 }
 .boton-modal:hover{
   background-color: transparent;
@@ -728,11 +738,11 @@ footer img{
  }
 
  .button-nosotros a{
-  width: 200px;
-  padding: 12px 48px;
+  padding: 0.8em 3em;
   text-align: center;
   color: white;
   border: solid 2px white;
+  font-weight: bolder;
   z-index: 1;
   font-family: lemon-light;
 }
@@ -770,7 +780,7 @@ footer img{
 
 
 #hero {
-  height:120vh;
+  height:100vh;
   width:100%;
   display:flex;
   align-items:center;
